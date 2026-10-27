@@ -1,0 +1,31 @@
+# Секреты
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Логи
+*.log
+logs/
+
+# Карта и состояние (генерируемые файлы)
+out/*.png
+data/state.json
+data/demo_state.json
+data/map.png
+data/bot.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
